@@ -14,5 +14,8 @@ elif opcao == 3:
     def converter():
         global Decimal
         Decimal = hex(Decimal)
+else:
+    print("Opção Inválida, Tente Novamente")
+    exit()
 converter()
 print(Decimal[2:].upper())
