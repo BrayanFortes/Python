@@ -1,8 +1,8 @@
 from datetime import datetime
 
 DataNascimento = (input("""Digite Sua Data de Nascimento:
-                        Exemplo: (dd/mm/aaaa) 
-                    ->    """))
+Exemplo: (dd/mm/aaaa) 
+->    """))
 formatacao = datetime.strptime(DataNascimento, "%d/%m/%Y")
 AnoAtual = datetime.now()
 
