@@ -35,3 +35,5 @@ if 'result' in dados:
     print(f"💱 {quantia:.2f} {moeda1} = {conversao:.2f} {moeda2}")
 else:
     print("Erro na API:", dados)
+
+
