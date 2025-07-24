@@ -53,7 +53,3 @@ cadLivro()
 ListLivros()
 Usuario()
 EmprestimoLivro()
-
-#ListLivros()
-#Usuario()
-#EmprestimoLivro()#
